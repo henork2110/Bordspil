@@ -2,9 +2,9 @@
 
 Höfundar og lýsing
 
-Höfundar: Henor og hópur
+Höfundar: Henor og Zsombor
 
-Verkefni: text
+Verkefni: monopoly
 
 ---
 
