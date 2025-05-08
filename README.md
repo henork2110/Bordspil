@@ -6,6 +6,7 @@ Höfundar: Henor og hópur
 
 Verkefni: text
 
+---
 
 ### Myndband sem sýnir spilavirkni
 link here
