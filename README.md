@@ -23,7 +23,7 @@ image here
 
 
 ### Hönnunarteikning (.svg) af Borðspili, (stilla blaðsíðustærðina í Inkscape þannig að hún sé eins og stærðin á kassanum).
-File here
+<img src="https://github.com/henork2110/Bordspil/blob/main/mynd.svg?raw=true" width="400">
 
 
 ### Kóðinn
