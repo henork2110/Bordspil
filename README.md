@@ -23,7 +23,7 @@ image here
 
 
 ### Hönnunarteikning (.svg) af Borðspili.
-<img src="https://github.com/henork2110/Bordspil/blob/main/mynd.svg?raw=true" width="1526">
+<img src="https://github.com/henork2110/Bordspil/blob/main/game%20box.svg?raw=true" width="1526">
 
 
 ### Kóðinn
