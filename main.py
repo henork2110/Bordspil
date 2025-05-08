@@ -1,20 +1,34 @@
+# ---------------------------------------------
+# Rafrænt borðspil með ESP32 og MicroPython
+# Leikmaður ýtir á takka til að kasta teningi.
+# LED hringur sýnir niðurstöðu (1-6).
+# Ef leikmaður lendir á sérstökum reit með segli
+# skynjar reed switch það og spilar hljóð.
+# ---------------------------------------------
+
 from machine import Pin, PWM
 from neopixel import NeoPixel
 from time import sleep
 import random
 
+# LED hringur (35 LED)
 led_pin = Pin(5)
 led_amount = 35
 leds = NeoPixel(led_pin, led_amount)
 
+# Teningakast takki
 button_pin = Pin(11, Pin.IN, Pin.PULL_UP)
+
+# Reed switch til að skynja sérstakan reit
 reed_pin = Pin(13, Pin.IN, Pin.PULL_DOWN)
 
+# Buzzer/hátalari
 buzzer_pin = Pin(4)
 buzzer_pwm = PWM(buzzer_pin)
 buzzer_pwm.freq(10)
 buzzer_pwm.duty(0)
 
+# Birta teningatölu með rauðum ljósum á hringnum
 def show_number(n):
     leds.fill((0, 0, 0))
 
@@ -38,8 +52,9 @@ def show_number(n):
 
     leds.write()
 
-
+# Aðal lykkja
 while True:
+    # Teningakast með takka
     if button_pin.value() == 0:
         for i in range(20):
             leds.fill((0, 0, 0))
@@ -52,6 +67,7 @@ while True:
         show_number(result)
         sleep(0.5)
 
+    # Ef reed switch virkjast, spila hljóð
     if reed_pin.value() == 1:
         buzzer_pwm.duty(1000)
         sleep(0.1)
