@@ -22,7 +22,7 @@ image here
 image here
 
 
-### Hönnunarteikning (.svg) af Borðspili, (stilla blaðsíðustærðina í Inkscape þannig að hún sé eins og stærðin á kassanum).
+### Hönnunarteikning (.svg) af Borðspili.
 <img src="https://github.com/henork2110/Bordspil/blob/main/mynd.svg?raw=true" width="1526">
 
 
