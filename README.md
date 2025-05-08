@@ -4,7 +4,7 @@ Höfundar og lýsing
 
 Höfundar: Henor og Zsombor
 
-Verkefni: monopoly
+Borðspilið er einfalt spil þar sem leikmaður kastar teningi með því að ýta á takka. LED hringur sýnir niðurstöðuna með rauðum ljósum. Ef leikmaður lendir á sérstökum reit með segli virkjast reed switch og spilar hljóð.
 
 ---
 
