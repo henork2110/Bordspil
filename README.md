@@ -30,7 +30,7 @@ Borðspilið er einfalt spil þar sem leikmaður kastar teningi með því að �
 
 
 ### Hönnunarteikning (.svg) af Borðspili.
-<img src="https://github.com/henork2110/Bordspil/blob/main/game%20box.svg?raw=true" width="50%">
+<img src="https://github.com/henork2110/Bordspil/blob/main/game%20box.svg?raw=true" width="100%">
 
 
 ### Kóðinn
