@@ -24,8 +24,9 @@ Borðspilið er einfalt spil þar sem leikmaður kastar teningi með því að �
 
 
 ### Ljósmyndir af lóðun – báðar hliðar
-image here
-image here
+<img src="https://github.com/henork2110/Bordspil/blob/main/1000007517.jpg?raw=true" width="30%">
+<img src="https://github.com/henork2110/Bordspil/blob/main/1000007518.jpg?raw=true" width="30%">
+<img src="https://github.com/henork2110/Bordspil/blob/main/1000007519.jpg?raw=true" width="30%">
 
 
 ### Hönnunarteikning (.svg) af Borðspili.
