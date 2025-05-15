@@ -14,7 +14,7 @@ link here
 
 ### Ljósmyndir af borðspil – utan og innan úr kassa
 image here
-image here
+<img src="https://github.com/henork2110/Bordspil/blob/main/IMG_3609.jpeg?raw=true" width="50%">
 
 
 ### Ljósmyndir af lóðun – báðar hliðar
@@ -23,7 +23,7 @@ image here
 
 
 ### Hönnunarteikning (.svg) af Borðspili.
-<img src="https://github.com/henork2110/Bordspil/blob/main/game%20box.svg?raw=true" width="1526">
+<img src="https://github.com/henork2110/Bordspil/blob/main/game%20box.svg?raw=true" width="50%">
 
 
 ### Kóðinn
