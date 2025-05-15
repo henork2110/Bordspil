@@ -11,7 +11,7 @@ from neopixel import NeoPixel
 from time import sleep
 import random
 
-# LED hringur (35 LED)
+# LED hringur (24 LED)
 led_pin = Pin(5)
 led_amount = 24
 leds = NeoPixel(led_pin, led_amount)
