@@ -8,7 +8,7 @@ led_button_pin = Pin(17, Pin.OUT)
 led_button_pin.value(1023)
 
 led_pin = Pin(5)
-led_amount = 35
+led_amount = 24
 leds = NeoPixel(led_pin, led_amount)
 
 button_pin = Pin(11, Pin.IN, Pin.PULL_UP)
