@@ -19,6 +19,7 @@ buzzer_pwm = PWM(buzzer_pin)
 buzzer_pwm.freq(1000)
 buzzer_pwm.duty(0)
 
+#leiddi hjól velur númer og hvaða ljós á að kveikja
 def show_number(n):
     leds.fill((0, 0, 0))
 
@@ -58,7 +59,7 @@ while True:
         show_number(result)
         sleep(0.5)
         print(result)
-
+#hljóðmerki virkjar þegar reyrinn virkjar
     if reed_pin.value() == 1:
         buzzer_pwm.duty(1000)
         sleep(1)
