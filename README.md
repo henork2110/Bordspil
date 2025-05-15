@@ -9,6 +9,8 @@ Borðspilið er einfalt spil þar sem leikmaður kastar teningi með því að �
 ---
 
 ### Myndband sem sýnir spilavirkni
+[Video](https://github.com/henork2110/Bordspil/blob/3a93ee3684ebe08256590fc40f17e2a69cb8d7c6/IMG_3614-2.mp4)
+
 <video width="30%" controls>
   <source src="https://github.com/henork2110/Bordspil/blob/main/IMG_3614-2.mp4?raw=true" type="video/mp4">
 </video>
