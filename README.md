@@ -9,12 +9,13 @@ Borðspilið er einfalt spil þar sem leikmaður kastar teningi með því að �
 ---
 
 ### Myndband sem sýnir spilavirkni
-link here
+<img src="https://github.com/henork2110/Bordspil/blob/main/IMG_3614.MOV?raw=true" width="60%">
 
 
 ### Ljósmyndir af borðspil – utan og innan úr kassa
 image here
-<img src="https://github.com/henork2110/Bordspil/blob/main/IMG_3609.jpeg?raw=true" width="50%">
+<img src="https://github.com/henork2110/Bordspil/blob/main/IMG_3610.jpeg?raw=true" width="30%">
+<img src="https://github.com/henork2110/Bordspil/blob/main/IMG_3609.jpeg?raw=true" width="30%">
 
 
 ### Ljósmyndir af lóðun – báðar hliðar
