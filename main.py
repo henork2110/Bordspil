@@ -13,7 +13,7 @@ import random
 
 # LED hringur (35 LED)
 led_pin = Pin(5)
-led_amount = 35
+led_amount = 24
 leds = NeoPixel(led_pin, led_amount)
 
 # Teningakast takki
@@ -33,17 +33,17 @@ def show_number(n):
     leds.fill((0, 0, 0))
 
     if n == 1:
-        leds_range = range(0, 6)
+        leds_range = range(0, 4)
     elif n == 2:
-        leds_range = range(6, 12)
+        leds_range = range(4, 8)
     elif n == 3:
-        leds_range = range(12, 18)
+        leds_range = range(8, 12)
     elif n == 4:
-        leds_range = range(18, 24)
+        leds_range = range(12, 16)
     elif n == 5:
-        leds_range = range(24, 30)
+        leds_range = range(16, 20)
     elif n == 6:
-        leds_range = range(30, 35)
+        leds_range = range(20, 24)
     else:
         leds_range = []
 
@@ -58,7 +58,7 @@ while True:
     if button_pin.value() == 0:
         for i in range(20):
             leds.fill((0, 0, 0))
-            r = random.randint(0, 34)
+            r = random.randint(0, 23)
             leds[r] = (0, 255, 0)
             leds.write()
             sleep(0.05)
